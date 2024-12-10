@@ -23,6 +23,8 @@ jobs:
     steps:
     - run: echo "Current directry is "
     - run: pwd
+    - run: echo "ls"
+    - run: ls
       
     - uses: actions/checkout@v4
     - name: Use Node.js ${{ matrix.node-version }}
