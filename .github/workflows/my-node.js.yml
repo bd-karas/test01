@@ -23,7 +23,7 @@ jobs:
     steps:
     - run: echo "Current directry is "
     - run: pwd
-    - run: echo "workspace is ${{ github.workspace }}
+    - run: echo "workspace is ${{ github.workspace }}"
     - run: echo "ls ${{ github.workspace }}"
     - run: ls ${{ github.workspace }}
       
